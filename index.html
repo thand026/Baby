@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love you</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1>
+        Will You Be My <br>
+        Valentine?
+    </h1>
+
+    <button id="yesButton" onclick=showYes()>
+        <i class="fa-solid fa-heart"></i>
+        Yes!
+        <i class="fa-solid fa-heart"></i>
+    </button>
+    <br>
+    <button onclick=showNo()>
+        <i class="fa-solid fa-heart"></i>
+        No
+        <i class="fa-solid fa-heart"></i>
+    </button>
+
+    <div id="yesAlert">
+        <div class="yes-box">
+            <h2 id="yesTitle">
+                I knew you would say yes
+                <i class="fa-solid fa-heart"></i>
+            </h2>
+            <p>
+                Dear Valentine <br>
+                Thank you for accepting my offer to be my Valentine. Each year, we come together to celebrate the love we have for each other. And this year is no different. <br>
+                Ever since I met you, I've been growing more and more like a tree. Each day we talk is like watering that tree and you've been watering this tree for 3 long years. That is a very long time and I've become a very beautiful tree thanks to the most beautiful woman I know. And because of that, your love has become my greatest treasure. One that I will treasure for as long as I live.
+                <br>
+                Thank you for being my guiding light through the darkness we face everyday. You used to call me your light and I find it fitting that you are now <b>my</b> guiding light. <br>
+                And as much as I know that is may be a short thing, I still hope that you love and enjoy it. <br>
+                With that all being said, I hope you enjoy the rest of your gift.
+                I love you 
+                <i class="fa-solid fa-heart"></i>
+                
+            </p>
+            <button class="close" onclick="closeYes()">
+                Ok
+            </button>
+        </div>
+    </div>
+
+    <div id="noAlert">
+        <div class="no-box">
+            <h2 class="noTitle">
+                <i class="fa-solid fa-gun"></i>
+                Excuse Me?
+            </h2>
+
+            <p>
+                I know you didn't just say no to me your boyfriend after you just asked me to ask you. I shouldn't even put an option for you to say no. I should just put Yes and Yes. <br>
+                But for the fun of it I'm just going to assume that was a mistake so don't bother to even say no. <br> Got it?
+            </p>
+            <button class="close" onclick="closeNo()">
+                Yes Sir
+            </button>
+        </div>
+    </div>
+    <br>
+
+    <audio id="song" src="jhené aiko - stay ready (instrumental).mp3"></audio>
+    
+
+    <script src="java.js">
+    </script>
+
+    <script src="https://kit.fontawesome.com/b49f610303.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>

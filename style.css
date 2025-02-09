@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #932F6D;
+    font-family: kaushan script;
+}
+
+body{
+    background-image: url(Valentine\ wallpaper\ 2.png);
+    background-size: cover;
+    text-align: center;
+    height:100vh;
+    backdrop-filter: blur(2px);
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 6rem;
+    font-size: 3rem;
+    color: #932F6D;
+}
+
+button{
+    background: none;
+    border: solid 3px;
+    font-size: 3rem;
+    justify-content: center;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1.5rem;
+}
+
+p{
+    padding: 1rem;
+}
+
+
+/* ChatGPT */
+
+#yesAlert{
+    display: none;
+    /* display: flex; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 128, 128, 0.364);
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.yes-box{
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 80vw;
+    background:#e6bcd2;
+}
+
+#noAlert{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background: rgba(248, 248, 255, 0.341);
+    align-items: center;
+
+}
+
+.no-box{
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: #e6bcd2;
+    width: 300px;
+}
+
+.close{
+    font-size: 1rem;
+}
+
